@@ -90,18 +90,28 @@ width: 60%;
 
 .imagen-descripcion {
   width:40%;
-
+}
+button{
+    border: 5px solid black;
 }
 .precio{
   border:5px solid black;
 }
 .boton-compra{
-    border:5px solid black;
-    width:40%;
+    text-align: center;
+    padding-top: 30px;
 }
-.boton-cerrar{
-  width:10%;
+button.boton-cerrar{
   position:absolute;
   right: 5px;
   top: 5px;
+  padding: 0;
+  height: 94px;
+}
+h1.boton-compra{
+  width: 300px;
+
+}
+.cerrar{
+  display: none;
 }
